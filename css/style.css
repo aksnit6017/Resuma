@@ -1,0 +1,334 @@
+/********css***********/
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|Homemade+Apple|Love+Ya+Like+A+Sister|Sue+Ellen+Francisco');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Love+Ya+Like+A+Sister|Loved+by+the+King');
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Satisfy');
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*#front{
+	 width: 100%;
+    background-image: url(../img/bg2.jpg);
+    height: 761px;
+    transition: all 0.5s;
+    overflow: hidden;
+    background-size: cover;
+}*/
+
+small{
+	font-size: 20%;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 20;
+}
+
+#logo{
+	z-index: 50;
+	position: absolute;
+	float: left;
+	padding: 20px 80px;
+}
+
+ul{
+	z-index: 25;
+	margin-right: 40px;
+	list-style: none;
+	float: right;
+}
+
+li{
+	float: left;
+	padding: 25px 10px;
+	width: 80px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 150%;
+}
+
+.banner-inner{
+	
+	margin-left: 80px;
+	z-index: 25;
+}
+
+.cards{
+	position: absolute;
+	margin: 130px 25px;
+	width: 25%;
+	float: left;
+}
+
+.two{
+	margin: 130px 300px;
+}
+
+.three{
+	margin: 130px 580px;
+}
+
+.maincard{
+	text-align: center;
+	background-color: #fff;
+	width: 250px;
+	height: 350px;
+	border-radius: 5px;
+}
+
+.topCircle{
+	position: relative;
+	margin-left: 75px;
+	top: 30px;
+	z-index: 10;
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+	box-shadow: 2px 4px 4px #000;
+}
+
+.purp{
+	background-color: #9C27B0;
+}
+
+.grn{
+	background-color: #8BC34A;
+}
+
+.pnk{
+	background-color: #E91E63;
+}
+
+h3{
+	text-align: center;
+	padding-top: 15px;
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: bolder;
+	font-size: 200%;
+	color: #000;
+	text-shadow: 3px 5px 4px #fff;
+}
+
+h4{
+	font-size: 150%;
+	margin:20px;
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Loved by the King', cursive;
+}
+
+sup{
+	position: absolute;
+	line-height: 40px;
+}
+
+span{
+	color: #8BC34A;
+}
+
+span2{
+	color: red;
+}
+
+.banner-innerGS{
+	
+	width: 50%;
+	margin:0 auto;
+}
+
+.cardsGS{
+	position: absolute;
+	margin: 130px 25px;
+	width: 25%;
+	float: left;
+}
+
+.maincardGS{
+	text-align: center;
+	background-color: #fff;
+	width: 550px;
+	height: 550px;
+	border-radius: 5px;
+}
+
+.purp{
+	background-color: #9C27B0;
+}
+
+h3{
+	text-align: center;
+	padding-top: 0px;
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: bolder;
+	font-size: 200%;
+	color: #000;
+	text-shadow: 3px 5px 4px #fff;
+}
+
+#flag{ 
+	width: 110px; 
+	height: 116px; 
+	padding-top: 5px; 
+	position: relative; 
+	background: #129212; 
+	top:60px; 
+	z-index: 20;
+	color: white; 
+	font-size: 11px; 
+	letter-spacing: 0.2em; 
+	text-align: center; 
+	text-transform: uppercase; 
+	left:380px;
+	} 
+
+#flag:after { 
+	content: ""; 
+	position: absolute; 
+	left: 0;
+	bottom: 0; 
+	width: 0; 
+	height: 0; 
+	border-bottom: 25px solid #fff; 
+	border-left: 55px solid transparent; 
+	border-right: 55px solid transparent; 
+}
+
+#frontform{
+  width: 100%;
+  height: 1700px;
+  background-image: url(../img/7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.formdiv-inner{
+	width: 50%;
+	margin: auto;
+	margin-left:16%;
+	padding-top: 12%;
+	height: 50%;
+	text-align: center;
+}
+
+.formcard{
+	width: 800px;
+	height: 1400px;
+	background-color: #26C281;
+	border-radius: 5px;
+	border: 4px #049372 solid;
+}
+
+.formcard:hover{
+	-webkit-box-shadow: 0 0 20px #000;
+        box-shadow: 0 0 20px #000;
+}
+
+span3{
+	font-family: 'Homemade Apple', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Sue Ellen Francisco', cursive;
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+span4{
+	text-align: center;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+input{
+	text-align: center;
+	margin: 1px;
+}
+
+.objc{
+	width: 750px;
+}
+
+hr.style1 {
+	border-top: 4px double #000;
+	text-align: center;
+}
+
+.sb-btn{
+	width: 90px;
+	padding: .5%;
+	border:;
+	border-radius: 6px;
+	background-color: #fff;
+	font-weight: bold;
+	color: #000;
+	font-size: 130%;
+}
+
+.sb-btn:hover{
+	-webkit-box-shadow: 0 0 20px #000;
+        box-shadow: 0 0 20px #000;
+}
+
+input{
+	width: 200px;
+	background: #000;
+	color: #fff;
+	padding: .5%;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Handlee', cursive;
+	font-size: 80%;
+
+}
+
+select{
+	background: #000;
+	color: #fff;
+	padding: .5%;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Handlee', cursive;
+	font-size: 80%;
+}
+
+.nam{
+	width: 400px;
+}
+
+input:focus{
+	-webkit-box-shadow: 0 0 30px #fff;
+    box-shadow: 0 0 30px #fff;
+    border-radius: 10px;
+}
+
+.aoi{
+	width: 300px;
+}
+
+.clg{
+	width: 600px;
+}
+
+.clg2{
+	width: 500px;
+}
+
+.prpj{
+	width: 300px;
+}
